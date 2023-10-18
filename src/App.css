@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+}
+
+.mainBlock {
+    background-color: #d3e4ed;
+    height: calc(100% - 200px);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    overflow: auto;
+}

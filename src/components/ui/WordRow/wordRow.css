@@ -1,0 +1,31 @@
+.mainTable {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.words {
+    width: 30%;
+    height: 70px;
+    margin-top: 10px;
+    border-color: #FEAC00;
+    border-style: double 1px;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 0.75em;
+}
+
+.buttonChangeWord,
+.buttonSaveWord {
+    width: 2%;
+    margin: 10px 0 0;
+    border-radius: 0.75em;
+}
+
+.buttonChangeWord {
+    background-color: #FEC13F;
+}
+
+.buttonSaveWord {
+    background-color: #70A02A;
+}

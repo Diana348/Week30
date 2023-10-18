@@ -1,0 +1,19 @@
+.mainContainer {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitle {
+    width: 100wv;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    color: #D34A00;
+}
+
+.mainWordsTable {
+    min-width: 95%;
+    /* font-display: center; */
+}
